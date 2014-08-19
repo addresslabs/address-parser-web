@@ -110,8 +110,8 @@ header .intro-text .skills {
 
 @media(min-width:768px) {
     header .container {
-        padding-top: 200px;
-        padding-bottom: 100px;
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 
     header .intro-text .name {
@@ -151,6 +151,10 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+}
+
+.navbar.no-margin {
+    margin-bottom: 0;
 }
 
 .navbar a:focus {
