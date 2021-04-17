@@ -18,7 +18,7 @@ $(function() {
         $('#formatted-line-2').text('');
         $('#raw-response').text('');
 
-        $.post('//address-parser.herokuapp.com/v1/parsed-address', {
+        $.post('https://address-parser.herokuapp.com/v1/parsed-address', {
             address: address
         }).done(function(data) {
             $('.parsed-address-data').show();
